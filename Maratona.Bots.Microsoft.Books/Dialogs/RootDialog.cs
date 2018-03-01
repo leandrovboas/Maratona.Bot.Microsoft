@@ -95,6 +95,32 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
             context.Done<string>(null);
         }
 
+        /// <summary>
+        /// Tradução de texto
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="result"></param>
+        /// <returns></returns>
+        [LuisIntent("traducao")]
+        public async Task TraducaoAsync(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync("**(▀̿Ĺ̯▀̿ ̿)** - Ok, me fala o texto então...");
+            context.Wait(TraduzirPtBr);
+        }
+
+        #region [Métodos internos]
+        private async Task TraduzirPtBr(IDialogContext context, IAwaitable<IMessageActivity> value)
+        {
+            var message = await value;
+
+            var text = message.Text;
+
+            var response = await new SevicoLinguagem().TraducaoDeTextoAsync(text);
+
+            await context.PostAsync(response);
+            context.Wait(MessageReceived);
+        }
+
         private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
         {
             var activity = await result as Activity;
@@ -107,5 +133,7 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
 
             context.Wait(MessageReceivedAsync);
         }
+
+        #endregion
     }
 }
