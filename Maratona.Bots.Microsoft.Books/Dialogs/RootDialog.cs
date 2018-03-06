@@ -4,6 +4,7 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using Microsoft.Bot.Builder.Luis.Models;
 using Microsoft.Bot.Builder.Luis;
+using System.Linq;
 
 namespace Maratona.Bots.Microsoft.Books.Dialogs
 {
@@ -11,7 +12,7 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
     public class RootDialog : LuisDialog<object>
     {
         public RootDialog(ILuisService service) : base(service) { }
-            
+
         /// <summary>
         /// Quando não houve intenção reconhecida.
         /// </summary>
@@ -63,14 +64,11 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
         [LuisIntent("ajudar")]
         public async Task AjudarAsync(IDialogContext context, LuisResult result)
         {
-            var response = "Não se esqueça que eu sou um **Bot** e minha conversação é limitada. Olha ai o que eu consigo fazer:\n" +
-                       "* **Falar que nem gente**\n" +
-                       "* **Descrever imagens**\n" +
-                       "* **Reconhecer emoções**\n" +
-                       "* **Classificar objetos**\n" +
-                       "* **Traduzir textos**\n" +
-                       "* **Recomendar liveos por categoria**\n" +
-                       "* **Recomendar livros por livros lidos**";
+            const string response = "Não se esqueça que eu sou um **Bot** e minha conversação é limitada. Olha ai o que eu consigo fazer:\n" +
+                             "* **Descrever a capa de um livro**\n" +
+                             "* **Traduzir textos**\n" +
+                             "* **Recomendar liveos por categoria**\n" +
+                             "* **Recomendar liveos por categoria**\n";
             await context.PostAsync(response);
             context.Done<string>(null);
         }
@@ -87,9 +85,7 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
             var now = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time")).TimeOfDay;
             string saudacao;
 
-            if (now < TimeSpan.FromHours(12)) saudacao = "Bom dia";
-            else if (now < TimeSpan.FromHours(18)) saudacao = "Boa tarde";
-            else saudacao = "Boa noite";
+            saudacao = now < TimeSpan.FromHours(12) ? "Bom dia" : now < TimeSpan.FromHours(18) ? "Boa tarde" : "Boa noite";
 
             await context.PostAsync($"{saudacao}! Em que posso ajudar?");
             context.Done<string>(null);
@@ -105,11 +101,18 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
         public async Task TraducaoAsync(IDialogContext context, LuisResult result)
         {
             await context.PostAsync("**(▀̿Ĺ̯▀̿ ̿)** - Ok, me fala o texto então...");
-            context.Wait(TraduzirPtBr);
+            context.Wait(TraduzirPtBrAsync);
+        }
+
+        [LuisIntent("descrever-imagem")]
+        public async Task DescreverImagenAsync(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync("Beleza, me passa a url da imagem que eu descrevo o que tem nela.");
+            context.Wait((c, a) => ProcessarImagemAsync(c, a));
         }
 
         #region [Métodos internos]
-        private async Task TraduzirPtBr(IDialogContext context, IAwaitable<IMessageActivity> value)
+        private async Task TraduzirPtBrAsync(IDialogContext context, IAwaitable<IMessageActivity> value)
         {
             var message = await value;
 
@@ -117,7 +120,7 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
 
             var response = await new SevicoLinguagem().TraducaoDeTextoAsync(text);
 
-            await context.PostAsync(response);
+            await context.PostAsync($"Texto original: **{ text }**\nTradução: **{ response }**");
             context.Wait(MessageReceived);
         }
 
@@ -132,6 +135,28 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
             await context.PostAsync($"You sent {activity.Text} which was {length} characters");
 
             context.Wait(MessageReceivedAsync);
+        }
+
+        private async Task ProcessarImagemAsync(IDialogContext contexto,
+            IAwaitable<IMessageActivity> argument)
+        {
+            var activity = await argument;
+
+            var uri = activity.Attachments?.Any() == true ?
+                new Uri(activity.Attachments[0].ContentUrl) :
+                new Uri(activity.Text);
+
+            try
+            {
+                var reply = await new ServicoVisaoComputacional().AnaliseDetalhadaAsync(uri);
+                await contexto.PostAsync(reply);
+            }
+            catch (Exception ex)
+            {
+                await contexto.PostAsync("Ops! Deu algo errado na hora de analisar sua imagem!");
+            }
+
+            contexto.Wait(MessageReceived);
         }
 
         #endregion

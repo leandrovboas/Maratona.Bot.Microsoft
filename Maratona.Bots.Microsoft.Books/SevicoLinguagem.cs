@@ -23,7 +23,7 @@ namespace Maratona.Bots.Microsoft.Books
                 var result = await response.Content.ReadAsStringAsync();
                 var content = XElement.Parse(result).Value;
 
-                return $"Texto original: **{ texto }**\nTradução: **{ content }**";
+                return content;
             }
         }
     }

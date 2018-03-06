@@ -39,3 +39,44 @@ c:\users\leandro.boas\source\repos\Maratona.Bots.Microsoft\Maratona.Bots.Microso
 c:\users\leandro.boas\source\repos\Maratona.Bots.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Maratona.Bots.Microsoft.Books.csproj.CoreCompileInputs.cache
 c:\users\leandro.boas\source\repos\Maratona.Bots.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Bot Application.dll
 c:\users\leandro.boas\source\repos\Maratona.Bots.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Bot Application.pdb
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Maratona.Bots.Microsoft.Books.csprojResolveAssemblyReference.cache
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Maratona.Bots.Microsoft.Books.csproj.CoreCompileInputs.cache
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Bot Application.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\obj\Debug\Bot Application.pdb
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Bot Application.dll.config
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Bot Application.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Bot Application.pdb
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Autofac.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Chronic.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Bot.Builder.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Bot.Connector.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Newtonsoft.Json.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.Net.Http.Formatting.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.Web.Http.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.Web.Http.WebHost.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Autofac.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Bot.Builder.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.Bot.Connector.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\Newtonsoft.Json.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.Net.Http.Formatting.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.Web.Http.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\System.Web.Http.WebHost.xml
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.Books\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
