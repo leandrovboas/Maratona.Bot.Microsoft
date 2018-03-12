@@ -1,0 +1,10 @@
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.csproj.CoreCompileInputs.cache
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.AssemblyInfoInputs.cache
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.AssemblyInfo.cs
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.deps.json
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.runtimeconfig.json
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.runtimeconfig.dev.json
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.pdb
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.dll
+C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.pdb

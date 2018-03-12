@@ -68,7 +68,7 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
                              "* **Descrever a capa de um livro**\n" +
                              "* **Traduzir textos**\n" +
                              "* **Recomendar liveos por categoria**\n" +
-                             "* **Recomendar liveos por categoria**\n";
+                             "* **Recomendar liveos que o boot gosta**\n";
             await context.PostAsync(response);
             context.Done<string>(null);
         }
