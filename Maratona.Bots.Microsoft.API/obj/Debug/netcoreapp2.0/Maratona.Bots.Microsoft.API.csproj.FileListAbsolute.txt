@@ -8,3 +8,14 @@ C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maraton
 C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.pdb
 C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.dll
 C:\Users\leandro.boas\Desktop\VilasBoas\Projetos\Maratona.Bots.Microsoft\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.pdb
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.deps.json
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.runtimeconfig.json
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.runtimeconfig.dev.json
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.dll
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\bin\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.pdb
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.csprojResolveAssemblyReference.cache
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.csproj.CoreCompileInputs.cache
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.AssemblyInfoInputs.cache
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.AssemblyInfo.cs
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.dll
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API\obj\Debug\netcoreapp2.0\Maratona.Bots.Microsoft.API.pdb

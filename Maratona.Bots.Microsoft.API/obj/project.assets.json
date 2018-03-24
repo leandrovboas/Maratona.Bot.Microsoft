@@ -12535,7 +12535,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leandro.boas\\.nuget\\packages\\": {},
+    "C:\\Users\\leand\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12544,17 +12544,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\leandro.boas\\Desktop\\VilasBoas\\Projetos\\Maratona.Bots.Microsoft\\Maratona.Bot.Microsoft\\Maratona.Bots.Microsoft.API\\Maratona.Bots.Microsoft.API.csproj",
+      "projectUniqueName": "C:\\_Developement\\Maratona Bots\\Maratona.Bot.Microsoft\\Maratona.Bots.Microsoft.API\\Maratona.Bots.Microsoft.API.csproj",
       "projectName": "Maratona.Bots.Microsoft.API",
-      "projectPath": "C:\\Users\\leandro.boas\\Desktop\\VilasBoas\\Projetos\\Maratona.Bots.Microsoft\\Maratona.Bot.Microsoft\\Maratona.Bots.Microsoft.API\\Maratona.Bots.Microsoft.API.csproj",
-      "packagesPath": "C:\\Users\\leandro.boas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leandro.boas\\Desktop\\VilasBoas\\Projetos\\Maratona.Bots.Microsoft\\Maratona.Bot.Microsoft\\Maratona.Bots.Microsoft.API\\obj\\",
+      "projectPath": "C:\\_Developement\\Maratona Bots\\Maratona.Bot.Microsoft\\Maratona.Bots.Microsoft.API\\Maratona.Bots.Microsoft.API.csproj",
+      "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
+      "outputPath": "C:\\_Developement\\Maratona Bots\\Maratona.Bot.Microsoft\\Maratona.Bots.Microsoft.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\leandro.boas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

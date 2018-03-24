@@ -5,6 +5,9 @@ using Microsoft.Bot.Connector;
 using Microsoft.Bot.Builder.Luis.Models;
 using Microsoft.Bot.Builder.Luis;
 using System.Linq;
+using System.Net.Http;
+using Newtonsoft.Json;
+using Maratona.Bots.Microsoft.Books.Models;
 
 namespace Maratona.Bots.Microsoft.Books.Dialogs
 {
@@ -104,11 +107,48 @@ namespace Maratona.Bots.Microsoft.Books.Dialogs
             context.Wait(TraduzirPtBrAsync);
         }
 
+        /// <summary>
+        /// Tradus o testo passado
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="result"></param>
+        /// <returns></returns>
         [LuisIntent("descrever-imagem")]
         public async Task DescreverImagenAsync(IDialogContext context, LuisResult result)
         {
             await context.PostAsync("Beleza, me passa a url da imagem que eu descrevo o que tem nela.");
             context.Wait((c, a) => ProcessarImagemAsync(c, a));
+        }
+
+        /// <summary>
+        /// Retorna uma lista de livros como indicação
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="result"></param>
+        /// <returns></returns>
+        [LuisIntent("indicacao")]
+        public async Task IndicacaoAsync(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync("Hummm deixe me ver quais livros eu mais gosto!!!");
+
+            var endpoint = "https://maratonabotsmicrosoftapi.azurewebsites.net/api/bot/getLivrosBot";
+
+            using (var cliente = new HttpClient())
+            {
+                var response = await cliente.GetAsync(endpoint);
+                if (!response.IsSuccessStatusCode)
+                {
+                    await context.PostAsync("Ocorreu algum problema... Tu poderia tentar mais tarde?");
+                    return;
+                }
+                else
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var resultado = JsonConvert.DeserializeObject<Livro[]>(json);
+                    var livros = resultado?.Select(l => $"{l.Nome}");
+                    await context.PostAsync($"{string.Join(",", livros.ToArray())}");
+                }
+            }
         }
 
         #region [Métodos internos]

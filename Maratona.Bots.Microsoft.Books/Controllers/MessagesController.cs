@@ -42,7 +42,7 @@ namespace Maratona.Bots.Microsoft.Books
                             reply.Text = "Olá, eu sou o **Bot Inteligentão**. Curte ai o que eu posso fazer:\n" +
                                          "* **Descrever a capa de um livro**\n" +
                                          "* **Traduzir textos**\n" +
-                                         "* **Recomendar liveos por categoria**\n" +
+                                         "* **Recomendar liveos que eu gosto**\n" +
                                          "* **Recomendar liveos por categoria**\n";
 
                             await connector.Conversations.ReplyToActivityAsync(reply);

@@ -1,0 +1,5 @@
+C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=Maratona.Bots.Microsoft.API
+--content-root=C:\_Developement\Maratona Bots\Maratona.Bot.Microsoft\Maratona.Bots.Microsoft.API
+--file=
